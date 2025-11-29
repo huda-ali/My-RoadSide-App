@@ -1,4 +1,4 @@
-👑 ونش إنقاذ الهنا - موقع خدمات سحب وإنقاذ السيارات (RTL)
+ ونش إنقاذ الهنا - موقع خدمات سحب وإنقاذ السيارات (RTL)
 
 وصف المشروع
 
@@ -28,7 +28,7 @@ Tailwind CSS: للتصميم السريع والمخصص (Utility-First CSS).
 
 Lucide-React: لإضافة أيقونات واضحة وعصرية.
 
-📄 Component Structure
+ Component Structure
 
 The project consists of a single main file, App.jsx, which contains all the necessary components and logic:
 
