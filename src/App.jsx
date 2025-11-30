@@ -29,7 +29,7 @@ const ARABIC_CONTENT = {
     phone1: "01285651617",
     phone2: "01028293074",
     cta: "اتصل الآن",
-    img: "src/assets/promo1.jpeg",
+    img: "assets/promo1.jpeg",
   },
   services: {
     mainTitle: "خدماتنا",
@@ -39,28 +39,28 @@ const ARABIC_CONTENT = {
         title: "خدمة إنقاذ وسحب",
         description:
           "خدمة سحب السيارات المتاحة 24/7 بأسعار تنافسية. نصل إليك أينما كنت.",
-        img: "src/assets/service1.jpeg",
+        img: "assets/service1.jpeg",
       },
       {
         id: 2,
         title: "تغيير الإطارات السريع",
         description:
           "نقدم خدمة تغيير إطارات سريعة واحترافية على الطريق لضمان سلامتك.",
-        img: "src/assets/service2.jpeg",
+        img: "assets/service2.jpeg",
       },
       {
         id: 3,
         title: "توصيل الوقود السريع",
         description:
           "إذا نفد وقود سيارتك، سنقوم بتوصيل الوقود لك بسرعة لضمان عدم تعطل رحلتك.",
-        img: "src/assets/service3.jpeg",
+        img: "assets/service3.jpeg",
       },
       {
         id: 4,
         title: "خدمة الطوارئ الفورية",
         description:
           "استجابة فورية لحالات الطوارئ على مدار الساعة لضمان أقصى درجات السلامة والسرعة.",
-        img: "src/assets/service4.jpeg",
+        img: "assets/service4.jpeg",
       },
     ],
   },
@@ -69,12 +69,12 @@ const ARABIC_CONTENT = {
     {
       id: 1,
       alt: "أرخص ونش إنقاذ سيارات",
-      src: "src/assets/promo2.jpeg",
+      src: "assets/promo2.jpeg",
     },
     {
       id: 2,
       alt: "أسرع ونش إنقاذ",
-      src: "src/assets/promo3.jpeg",
+      src: "assets/promo3.jpeg",
     },
   ],
   testimonials: {
@@ -481,13 +481,13 @@ const AboutPage = () => (
 
       <div className="mt-12 text-center">
         <img
-          src="src/assets/promo2.jpeg"
+          src="assets/promo2.jpeg"
           alt="Our professional team and fleet"
           className="w-full rounded-lg shadow-xl"
           loading="lazy"
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = "src/assets/promo2.jpeg";
+            e.target.src = "assets/promo2.jpeg";
           }}
         />
       </div>
